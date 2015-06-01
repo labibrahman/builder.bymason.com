@@ -1,0 +1,66 @@
+// Screen
+// ======
+
+@import "base";
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: #1B1919;
+    color: #fff;
+    @include futura-400;
+    text-align: center;
+}
+
+#mason-logo {
+    height: 4rem;
+    padding: 0.68em 0 0.68rem 0;
+}
+.wrap {
+    @include container;
+}
+
+#above-the-fold {
+    height: 100vh;
+    margin-top: -3.1rem;
+    background-color: #fefefe;
+}
+
+
+#hero-text {
+    padding-top: 7.599rem;
+    text-align: center;
+    @include futura-700;
+    font-size: 4.69708rem;
+}
+
+.hero-subtext {
+    text-align: center;
+    @include futura-400;
+    font-size: 2.90302rem;
+    line-height: 0.0557rem;
+}
+
+.call-to-action {
+    @include span(isolate 2 at 6);
+    font-size: 2.90302rem;
+    text-align: center;
+    border: {
+        style: solid;
+        width: 3px;
+        color: #262626;
+    }
+
+
+    h5 {
+        @include futura-400;
+        margin: 1rem 1rem 1rem 1rem;
+        color: #262626;
+    }
+}
+p {
+    @include futura-400;
+}
+
